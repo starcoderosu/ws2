@@ -1,44 +1,44 @@
   
  
   @font-face { 
-    font-family: SeafordBold; 
+    font-family: Kanit; 
     src: url(./font/SeafordBold.ttf); 
     font-weight: normal; 
     }    
     
   @font-face { 
-    font-family: SeafordRg; 
+    font-family: Kanit; 
     src: url(./font/SeafordRg.ttf); 
     font-weight: normal; 
     }
 
  h1 {
-    color: navy;
-    font-family: 'SeafordBold';
+    color: rgb(66, 0, 128);
+    font-family: 'Kanit';
     margin-left: 0px;
   }
 
   h2 {
-    font-family: SeafordRg;
-    color: navy;
+    font-family: Kanit;
+    color: rgb(66, 0, 128);
 }
 
   p.myP{
-    color: brown;
+    color: rgb(165, 42, 110);
     text-align: justify;
    text-justify: inter-word;
   }
 
   p{
-    font-family: SeafordRg;
-    color: black;
+    font-family: Kanit;
+    color: rgb(165, 42, 110);
   }
 
-  p.myP:hover{background-color: #ddd;}
+  p.myP:hover{background-color: #dddddd;}
 
 
  body {
-        font-family: SeafordRg;
+        font-family: Kanit;
         background-color:white;
       }
 
@@ -61,16 +61,16 @@ ol li {
 }  
   ol li::before { 
     content: "0" counter(num) "."; 
-    color: blue;     
+    color: rgb(66, 0, 128);     
 } 
 
 
 #mytable {
-    font-family: SeafordRg;
+    font-family: Kanit;
     border-collapse: collapse;
     width: 30%;
   }
-  
+  /* td = table data, th = table header */
   #mytable td, #mytable th {
     border: 1px solid #ddd;
     padding: 8px;
